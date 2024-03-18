@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.envato-main {
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    background-color: black;
+}
+
+
+.envato-main-box {
+    border: 1px solid black;
+    width: 99%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.envato-main-one {
+    border: 1px solid black;
+    width: 10%;
+    height: 40px;
+}
+
+.envato-main-two {
+    border: 1px solid black;
+    width: 6%;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.envato-main-two button {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    background-color: #7AA93C;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+
+/* envato-header */
+
+
+.envato-header {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.envato-header-one {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
+.envato-header-two {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.envato-header-item-four {
+    /* border: 1px solid black; */
+    width: 57%;
+    font-size: 18px;
+}
+
+.envato-header-item-four>p {
+    color: #7AA93C;
+}
+
+.envato-header-item-four span {
+    color: #766068;
+}
+
+.envato-header-item-five {
+    /* border: 1PX solid black; */
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.envato-header-item-six {
+    border: 1px solid black;
+    width: 35%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.envato-header-item-seven {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.envato-header-item-eight {
+    /* border: 1px solid black; */
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+}
+
+.envato-header-box {
+    /* border: 1px solid black; */
+    width: 34%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+}
+
+.envato-header-box>p {
+    margin-left: 13px;
+}
+
+.envato-header-box span {
+    color: #766068;
+    cursor: pointer;
+}
+
+.envato-header-box span:hover {
+    color: #7AA93C;
+}
+
+.envato-header-box-two {
+    /* border: 1px solid black; */
+    width: 43%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+.envato-header-box-two>p {
+    margin-left: 13px;
+}
+
+.envato-header-box-two span {
+    color: #766068;
+    cursor: pointer;
+}
+
+.envato-header-box-two span:hover {
+    color: #7AA93C;
+}
+
+.envato-header-three {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-left: 1px solid black;
+}
+
+.envato-header-item-one {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.envato-header-three-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #766068;
+    width: 100%;
+}
+
+.enavto-header-item-two {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.envato-navbar {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.envato-navbar-logo {
+    border: 1px solid black;
+    width: 11%;
+    height: 100%;
+    border-bottom-right-radius: 60px;
+    border-top: none;
+}
+
+.envato-navbar-element {
+    /* border: 1px solid black; */
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.envato-navbar-menu {
+    width: 10%;
+    height: 33px;
+    font-size: 18px;
+    background: no-repeat;
+    border: none;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+
+.envato-dropdown {
+    margin-top: 13px;
+    /* border: 1px solid black; */
+    width: 214px;
+    position: relative;
+    left: 25%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 12px;
+    border-radius: 10px;
+}
+
+.envato-dropdown-item {
+    list-style: none;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+}
+
+.envato-navbar-search {
+    border: 1px solid black;
+    width: 10%;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    margin-right: 77px;
+}
+
+.envato-navbar-search i {
+    margin-left: 3px;
+}
+
+.envato-navbar-search input {
+    height: 100%;
+    margin-left: 5px;
+    width: 89%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.envato-first-section {
+    border: 1px solid black;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.envato-first-item {
+    border: 1px solid black;
+    width: 60%;
+}
+
+.envato-second-item {
+    border: 1px solid black;
+    width: 40%;
+}
+
+.envato-first-subitem {
+    border: 1px solid black;
+    width: 62.5%;
+    height: 100%;
+    margin-left: 37.5%;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
